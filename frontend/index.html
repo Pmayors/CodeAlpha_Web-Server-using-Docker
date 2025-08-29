@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Docker Web Server</title>
+    <meta name="description" content="Modern web server deployed with Docker containers on AWS EC2">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">DockerWeb</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Professional Docker
+                        <span class="gradient-text">Web Server</span>
+                    </h1>
+                    <p class="hero-description">
+                        Containerized web application deployed on AWS EC2 with Ubuntu 22.04,
+                        featuring modern architecture, automated deployment, and production-ready configurations.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">Learn More</a>
+                        <a href="#services" class="btn btn-secondary">View Services</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="docker-animation">
+                        <div class="container-box" data-container="web">
+                            <div class="container-header">Nginx Server</div>
+                            <div class="container-status active"></div>
+                        </div>
+                        <div class="container-box" data-container="app">
+                            <div class="container-header">Static App</div>
+                            <div class="container-status active"></div>
+                        </div>
+                        <div class="docker-logo">🐳</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About This Project</h2>
+                    <p class="section-description">
+                        A sophisticated containerized web server showcasing modern DevOps practices
+                    </p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-icon">🏗️</div>
+                        <h3>Architecture</h3>
+                        <p>Multi-container architecture with separated concerns, using Docker Compose for orchestration and service discovery.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">☁️</div>
+                        <h3>Cloud Native</h3>
+                        <p>Deployed on AWS EC2 with Ubuntu 22.04, leveraging cloud infrastructure for scalability and reliability.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">🔒</div>
+                        <h3>Security</h3>
+                        <p>Implemented security best practices, security headers, and container isolation.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">📊</div>
+                        <h3>Monitoring</h3>
+                        <p>Comprehensive health checks, logging, and monitoring with Grafana for container management.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Features</h2>
+                    <p class="section-description">
+                        Production-ready features and capabilities
+                    </p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🐳</div>
+                        <h3>Docker Containerization</h3>
+                        <ul>
+                            <li>Multi-stage builds</li>
+                            <li>Optimized images</li>
+                            <li>Container orchestration</li>
+                            <li>Volume management</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🌐</div>
+                        <h3>Nginx Web Server</h3>
+                        <ul>
+                            <li>High-performance serving</li>
+                            <li>Reverse proxy setup</li>
+                            <li>Static file serving</li>
+                            <li>Security headers</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🚀</div>
+                        <h3>CI/CD Pipeline</h3>
+                        <ul>
+                            <li>Automated builds</li>
+                            <li>Docker Hub integration</li>
+                            <li>GitHub Actions</li>
+                            <li>Deployment automation</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📈</div>
+                        <h3>Performance & Monitoring</h3>
+                        <ul>
+                            <li>Health check endpoints</li>
+                            <li>Container metrics</li>
+                            <li>Log aggregation</li>
+                            <li>Real-time monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="status-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">System Status</h2>
+                    <p class="section-description">Real-time system health and metrics</p>
+                </div>
+                <div class="status-grid">
+                    <div class="status-card" id="server-status">
+                        <div class="status-icon">🌐</div>
+                        <h3>Web Server</h3>
+                        <div class="status-indicator" id="web-status">
+                            <span class="status-dot checking"></span>
+                            <span class="status-text">Checking...</span>
+                        </div>
+                    </div>
+                    <div class="status-card" id="container-status">
+                        <div class="status-icon">🐳</div>
+                        <h3>Containers</h3>
+                        <div class="status-indicator" id="docker-status">
+                            <span class="status-dot online"></span>
+                            <span class="status-text">Running</span>
+                        </div>
+                    </div>
+                    <div class="status-card" id="health-status">
+                        <div class="status-icon">💚</div>
+                        <h3>Health Check</h3>
+                        <div class="status-indicator" id="health-check">
+                            <span class="status-dot checking"></span>
+                            <span class="status-text">Checking...</span>
+                        </div>
+                    </div>
+                    <div class="status-card" id="ssl-status">
+                        <div class="status-icon">🔒</div>
+                        <h3>SSL Certificate</h3>
+                        <div class="status-indicator" id="ssl-check">
+                            <span class="status-dot online"></span>
+                            <span class="status-text">Valid</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="metrics-display">
+                    <div class="metric">
+                        <span class="metric-label">Uptime</span>
+                        <span class="metric-value" id="uptime">99.9%</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Response Time</span>
+                        <span class="metric-value" id="response-time">45ms</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Requests/Hour</span>
+                        <span class="metric-value" id="requests">1.2K</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="backend-data" class="container" style="margin:1rem 0; font-weight:bold;">
+          Loading backend info…
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DockerWeb Server</h3>
+                    <p>Professional containerized web server deployment on AWS EC2 with modern DevOps practices.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Technologies</h4>
+                    <ul>
+                        <li>Docker & Docker Compose</li>
+                        <li>Nginx Web Server</li>
+                        <li>AWS EC2 Ubuntu 22.04</li>
+                        <li>SSL/TLS Security</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Features</h4>
+                    <ul>
+                        <li>Container Orchestration</li>
+                        <li>Health Monitoring</li>
+                        <li>Automated Deployment</li>
+                        <li>Production Ready</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Docker Web Server Project. Deployed with ❤️ on AWS.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
